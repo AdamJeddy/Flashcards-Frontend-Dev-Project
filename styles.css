@@ -1,0 +1,69 @@
+h1 {
+    font-family: Arial;
+    text-effect: outline;
+    color: greenyellow;
+    text-align: center;
+}
+
+body {
+    background: url("https://cdn.mos.cms.futurecdn.net/mYgGsgUeqbMMYbZbTK7uP6-1200-80.jpg");
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 35%;
+    margin-right: 35%;
+    /*align-content: center;*/
+}
+
+.front {
+    font-family: Arial;
+
+    /*background-color: peachpuff;*/
+    background: linear-gradient(#EDE574, #E1F5C4);
+    text-align: center;
+
+    border: 1px solid black;
+    border-radius: 4px;
+
+    z-index: 2;
+    backface-visibility: hidden;
+}
+
+.back {
+    font-family: Arial;
+
+    background: linear-gradient(#348f50, #56b4d3);
+    text-align: center;
+
+    border: 1px solid black;
+    border-radius: 4px;
+
+    z-index: 1;
+}
+
+.card{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    transition: all 1s linear;
+    transform-style: preserve-3d;
+    margin: 10px;
+}
+
+.front,
+.back{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-bottom: 10px;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
