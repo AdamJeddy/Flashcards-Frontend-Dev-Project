@@ -1,5 +1,8 @@
-# Flashcards-Frontend-Dev-Project
- Jetbrains Academy - Flashcards - Final Code
+# Flashcards Frontend Dev Project
+ Flashcards project from Jetbrains Academy
 
+- HTML and CSS used
 
-LMAOO Add to this later
+# Preview of how the site
+
+![Preview of the site Gif](https://github.com/AdamJeddy/Flashcards-Frontend-Dev-Project/blob/main/Preview.gif "Website interaction")
